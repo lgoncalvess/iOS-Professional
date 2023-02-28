@@ -67,11 +67,11 @@
 			isa = PBXGroup;
 			children = (
 				A775B25129A908AF000D7651 /* AppDelegate.swift */,
+				A775B27529AD86D9000D7651 /* MainViewController.swift */,
 				A775B26629A90CF8000D7651 /* Login */,
 				A775B26929AAD913000D7651 /* Onboarding */,
 				A775B27029AC0B82000D7651 /* Utils */,
 				A775B26529A90CB1000D7651 /* Files */,
-				A775B27529AD86D9000D7651 /* MainViewController.swift */,
 			);
 			path = Bankey;
 			sourceTree = "<group>";

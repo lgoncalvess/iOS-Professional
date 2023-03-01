@@ -27,7 +27,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         onboardingContainerViewController.delegate = self
         loginViewController.delegate = self
         dummyViewController.logoutDelegate = self
-        window?.rootViewController = mainViewController
+//        window?.rootViewController = mainViewController
+        window?.rootViewController = AccountSummaryViewController()
 //        window?.rootViewController = OnboardingContainerViewController
 //        window?.rootViewController = OnboardingViewController(heroImageName: "delorean", titleText: "just a text just a text just a text just a text just a text just a text just a text.")
 

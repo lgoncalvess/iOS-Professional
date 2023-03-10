@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		A716EEC529B951B600797975 /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716EEC429B951B600797975 /* Date+Utils.swift */; };
 		A716EEC729B9530100797975 /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716EEC629B9530100797975 /* AccountSummaryViewController+Networking.swift */; };
+		A716EECB29BACB2200797975 /* ProfileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716EECA29BACB2200797975 /* ProfileTests.swift */; };
+		A716EECD29BACC4D00797975 /* AccountTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A716EECC29BACC4D00797975 /* AccountTests.swift */; };
 		A775B25229A908AF000D7651 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A775B25129A908AF000D7651 /* AppDelegate.swift */; };
 		A775B25629A908AF000D7651 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A775B25529A908AF000D7651 /* LoginViewController.swift */; };
 		A775B25B29A908B0000D7651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A775B25A29A908B0000D7651 /* Assets.xcassets */; };
@@ -45,6 +47,8 @@
 /* Begin PBXFileReference section */
 		A716EEC429B951B600797975 /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
 		A716EEC629B9530100797975 /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
+		A716EECA29BACB2200797975 /* ProfileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileTests.swift; sourceTree = "<group>"; };
+		A716EECC29BACC4D00797975 /* AccountTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountTests.swift; sourceTree = "<group>"; };
 		A775B24E29A908AF000D7651 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A775B25129A908AF000D7651 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A775B25529A908AF000D7651 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -89,6 +93,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A716EEC829BACAFB00797975 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A7F1271B29B40B6B00513EE5 /* CurrencyFormatterTests.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		A716EEC929BACB0700797975 /* AccountSummary */ = {
+			isa = PBXGroup;
+			children = (
+				A716EECA29BACB2200797975 /* ProfileTests.swift */,
+				A716EECC29BACC4D00797975 /* AccountTests.swift */,
+			);
+			path = AccountSummary;
+			sourceTree = "<group>";
+		};
 		A775B24529A908AF000D7651 = {
 			isa = PBXGroup;
 			children = (
@@ -196,7 +217,8 @@
 		A7F1271329B4093700513EE5 /* BankeyUnitTests */ = {
 			isa = PBXGroup;
 			children = (
-				A7F1271B29B40B6B00513EE5 /* CurrencyFormatterTests.swift */,
+				A716EEC929BACB0700797975 /* AccountSummary */,
+				A716EEC829BACAFB00797975 /* Utils */,
 			);
 			path = BankeyUnitTests;
 			sourceTree = "<group>";
@@ -338,6 +360,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7F1271C29B40B6B00513EE5 /* CurrencyFormatterTests.swift in Sources */,
+				A716EECD29BACC4D00797975 /* AccountTests.swift in Sources */,
+				A716EECB29BACB2200797975 /* ProfileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

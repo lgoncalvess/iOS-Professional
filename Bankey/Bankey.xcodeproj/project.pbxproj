@@ -131,9 +131,9 @@
 		A775B25029A908AF000D7651 /* Bankey */ = {
 			isa = PBXGroup;
 			children = (
-				A7F1272129B5511200513EE5 /* Components */,
 				A775B25129A908AF000D7651 /* AppDelegate.swift */,
 				A775B27529AD86D9000D7651 /* MainViewController.swift */,
+				A7F1272129B5511200513EE5 /* Components */,
 				A775B26629A90CF8000D7651 /* Login */,
 				A775B26929AAD913000D7651 /* Onboarding */,
 				A775B27729AFF444000D7651 /* AccountSummary */,

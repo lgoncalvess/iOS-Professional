@@ -19,12 +19,26 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setup()
         style()
         layout()
     }
 }
 
 extension ViewController {
+    func setup() {
+        setupDismissKeyboardGesture()
+    }
+    
+    private func setupDismissKeyboardGesture() {
+        let dismissKeyboardTap = UITapGestureRecognizer(target: self, action: #selector(viewTapped(_: )))
+        view.addGestureRecognizer(dismissKeyboardTap)
+    }
+    
+    @objc func viewTapped(_ recoginizer: UITapGestureRecognizer) {
+        view.endEditing(true)
+    }
+    
     func style() {
         stackView.translatesAutoresizingMaskIntoConstraints = false
         stackView.axis = .vertical
@@ -40,7 +54,7 @@ extension ViewController {
         confirmPasswordTextField.translatesAutoresizingMaskIntoConstraints = false
         
         resetButton.translatesAutoresizingMaskIntoConstraints = false
-        resetButton.configuration = .filled()
+//        resetButton.configuration = .filled()
         resetButton.setTitle("Reset Button", for: [])
 
     }
@@ -66,6 +80,13 @@ extension ViewController {
 extension ViewController: PasswordTextFieldDelegate {
     func editingChanged(_ sender: PasswordTextField) {
         if sender == newPasswordTextField {
+            statusView.updateDisplay(sender.textField.text!)
+        }
+    }
+    
+    func didEndEditing(_ sender: PasswordTextField) {
+        if sender == newPasswordTextField {
+            print("controller")
             statusView.updateDisplay(sender.textField.text!)
         }
     }

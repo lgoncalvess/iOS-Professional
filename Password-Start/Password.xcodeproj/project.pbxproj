@@ -15,6 +15,7 @@
 		A73BC67A29C535FA007549E7 /* PasswordCriteria.swift in Sources */ = {isa = PBXBuildFile; fileRef = A73BC67929C535FA007549E7 /* PasswordCriteria.swift */; };
 		A7BABBBA29C3AD410019AC85 /* PasswordCriteriaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BABBB929C3AD410019AC85 /* PasswordCriteriaView.swift */; };
 		A7BABBBC29C3B7440019AC85 /* PasswordStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BABBBB29C3B7440019AC85 /* PasswordStatusView.swift */; };
+		A7DDB5D629C77935006E73B9 /* UIResponder+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDB5D529C77935006E73B9 /* UIResponder+Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A73BC67929C535FA007549E7 /* PasswordCriteria.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteria.swift; sourceTree = "<group>"; };
 		A7BABBB929C3AD410019AC85 /* PasswordCriteriaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaView.swift; sourceTree = "<group>"; };
 		A7BABBBB29C3B7440019AC85 /* PasswordStatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusView.swift; sourceTree = "<group>"; };
+		A7DDB5D529C77935006E73B9 /* UIResponder+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Utils.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		71A08D85279D9D7500CBDCED /* Password */ = {
 			isa = PBXGroup;
 			children = (
+				A7DDB5D429C77917006E73B9 /* Utils */,
 				A7BABBB829C3AD280019AC85 /* PasswordStatusView */,
 				71A08D9A279D9E1500CBDCED /* Files */,
 				71A08D86279D9D7500CBDCED /* AppDelegate.swift */,
@@ -87,6 +90,14 @@
 				A73BC67929C535FA007549E7 /* PasswordCriteria.swift */,
 			);
 			path = PasswordStatusView;
+			sourceTree = "<group>";
+		};
+		A7DDB5D429C77917006E73B9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A7DDB5D529C77935006E73B9 /* UIResponder+Utils.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				71A08D8B279D9D7500CBDCED /* ViewController.swift in Sources */,
+				A7DDB5D629C77935006E73B9 /* UIResponder+Utils.swift in Sources */,
 				A73BC67A29C535FA007549E7 /* PasswordCriteria.swift in Sources */,
 				71A08D87279D9D7500CBDCED /* AppDelegate.swift in Sources */,
 				A7BABBBA29C3AD410019AC85 /* PasswordCriteriaView.swift in Sources */,
@@ -312,7 +324,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -340,7 +352,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

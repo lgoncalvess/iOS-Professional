@@ -18,6 +18,7 @@
 		A7DDB5D629C77935006E73B9 /* UIResponder+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDB5D529C77935006E73B9 /* UIResponder+Utils.swift */; };
 		A7DDB5E529C7DB98006E73B9 /* PasswordCriteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDB5E429C7DB98006E73B9 /* PasswordCriteriaTests.swift */; };
 		A7DDB5E729C7E17C006E73B9 /* PasswordStatusViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDB5E629C7E17C006E73B9 /* PasswordStatusViewTests.swift */; };
+		A7DDB5E929C7E467006E73B9 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDB5E829C7E467006E73B9 /* ViewControllerTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		A7DDB5DB29C7DA66006E73B9 /* PasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DDB5E429C7DB98006E73B9 /* PasswordCriteriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaTests.swift; sourceTree = "<group>"; };
 		A7DDB5E629C7E17C006E73B9 /* PasswordStatusViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusViewTests.swift; sourceTree = "<group>"; };
+		A7DDB5E829C7E467006E73B9 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 			children = (
 				A7DDB5E429C7DB98006E73B9 /* PasswordCriteriaTests.swift */,
 				A7DDB5E629C7E17C006E73B9 /* PasswordStatusViewTests.swift */,
+				A7DDB5E829C7E467006E73B9 /* ViewControllerTests.swift */,
 			);
 			path = PasswordTests;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7DDB5E929C7E467006E73B9 /* ViewControllerTests.swift in Sources */,
 				A7DDB5E529C7DB98006E73B9 /* PasswordCriteriaTests.swift in Sources */,
 				A7DDB5E729C7E17C006E73B9 /* PasswordStatusViewTests.swift in Sources */,
 			);

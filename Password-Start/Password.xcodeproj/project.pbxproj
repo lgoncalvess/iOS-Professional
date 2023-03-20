@@ -17,6 +17,7 @@
 		A7BABBBC29C3B7440019AC85 /* PasswordStatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7BABBBB29C3B7440019AC85 /* PasswordStatusView.swift */; };
 		A7DDB5D629C77935006E73B9 /* UIResponder+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDB5D529C77935006E73B9 /* UIResponder+Utils.swift */; };
 		A7DDB5E529C7DB98006E73B9 /* PasswordCriteriaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDB5E429C7DB98006E73B9 /* PasswordCriteriaTests.swift */; };
+		A7DDB5E729C7E17C006E73B9 /* PasswordStatusViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7DDB5E629C7E17C006E73B9 /* PasswordStatusViewTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		A7DDB5D529C77935006E73B9 /* UIResponder+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIResponder+Utils.swift"; sourceTree = "<group>"; };
 		A7DDB5DB29C7DA66006E73B9 /* PasswordTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7DDB5E429C7DB98006E73B9 /* PasswordCriteriaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordCriteriaTests.swift; sourceTree = "<group>"; };
+		A7DDB5E629C7E17C006E73B9 /* PasswordStatusViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordStatusViewTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				A7DDB5E429C7DB98006E73B9 /* PasswordCriteriaTests.swift */,
+				A7DDB5E629C7E17C006E73B9 /* PasswordStatusViewTests.swift */,
 			);
 			path = PasswordTests;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A7DDB5E529C7DB98006E73B9 /* PasswordCriteriaTests.swift in Sources */,
+				A7DDB5E729C7E17C006E73B9 /* PasswordStatusViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
